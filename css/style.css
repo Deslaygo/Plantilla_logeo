@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/mountains.png');
+   
+    background-position:center;
+    font-family: sans-serif;  
+}
+/*Estilo del título*/
+h1{
+    margin: 0;
+    padding: 40px 0 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+}
+/*Estilo del parrafo*/
+ .login_box p{
+     margin: 10px;
+     padding:0;
+     font-weight: bold;
+}
+/*Estilo de los input*/
+.login_box input{
+    width: 400px;
+    margin:10px;
+}
+/*Estilo de los input de texto*/
+.login_box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+}
+/*Estilo del boton*/
+.login_box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5%;
+}
+/*Estilo cuando pasa el cursor sobre el boton*/
+.login_box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+/*Estilo del enlace */
+.login_box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+/*Estilo del enlace cuando se pasa el cursor*/
+.login_box a:hover{
+   color: #ffc107; 
+}
+/*Estilo del formulario*/
+.login_box{
+    width: 420px;
+    height: 420px;
+    background: #282a65;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+/*Estilo de la imagen*/
+
+.avatar{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: fixed;
+    top: -50px;
+    left: 160px;
+}
