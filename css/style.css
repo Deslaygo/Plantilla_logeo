@@ -13,6 +13,8 @@ h1{
     text-align: center;
     font-size: 25px;
     margin-top: 70px;
+    color:#fb2525; 
+    font-style: italic;
 }
 /*Estilo del parrafo*/
  .login_box p{
